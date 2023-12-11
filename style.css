@@ -1,0 +1,68 @@
+body {
+    font-size: 2.5vh;
+    top: 14%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: rgba(57, 29, 29, 0.608);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    border: 5px solid rgb(54,58,65);
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.linesButton {
+    display: flex;
+
+}
+
+.box {
+    text-align: right;
+    font-size: 2.8vh;
+    height: 3vh;
+    padding: 1em;
+    border: 2px solid rgb(219, 175, 52);
+
+    color: rgb(240, 242, 255);
+    border-radius: 15px;
+    background-color: rgb(128, 119, 119);
+
+}
+
+button {
+    width: 9vh;
+    height: 9vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: rgb(169, 169, 169)
+    background-color: darkgray;
+    border-radius: 50%;
+    border: 1px solid aqua;
+
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.operator {
+    background-color: aqua
+}
+
+.operator:hover {
+    background-color: blue
+}
